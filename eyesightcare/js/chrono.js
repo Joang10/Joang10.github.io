@@ -1,4 +1,7 @@
+var started;
+
 window.onload = function(){
+    started = false;
     mostraHora();
 };
 
@@ -24,23 +27,26 @@ function mostraHora(){
 }
 
 function startTimer(duration, display) {
-    var timer = duration, minutes, seconds;
-    var intervalId = setInterval(function () {
-        minutes = parseInt(timer / 60, 10);
-        seconds = parseInt(timer % 60, 10);
-
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-        display.textContent = minutes + ":" + seconds;
-
-        if (--timer < 0) {
-            timer = duration;
-            playAlarm();
-            mostraCount();
-            clearInterval(intervalId);
-        }
-    }, 1000);
+    if(started == false){
+        started = true;
+        var timer = duration, m, s;
+        var intervalId = setInterval(function () {
+            m = parseInt(timer / 60, 10);
+            s = parseInt(timer % 60, 10);
+    
+            m = m < 10 ? "0" + m : m;
+            s = s < 10 ? "0" + s : s;
+    
+            display.textContent = m + ":" + s;
+    
+            if (--timer < 0) {
+                timer = duration;
+                playAlarm();
+                mostraCount();
+                clearInterval(intervalId);
+            }
+        }, 1000);
+    }
 }
 
 function mostraCount(){
