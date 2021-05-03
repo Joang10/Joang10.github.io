@@ -31,6 +31,12 @@ function startTimer(duration, display) {
         started = true;
         var timer = duration, m, s;
         var intervalId = setInterval(function () {
+            if (--timer < 0) {
+                started = false;
+                timer = duration;
+                playAlarm();
+                clearInterval(intervalId);
+            }
             m = parseInt(timer / 60, 10);
             s = parseInt(timer % 60, 10);
     
@@ -38,19 +44,12 @@ function startTimer(duration, display) {
             s = s < 10 ? "0" + s : s;
     
             display.textContent = m + ":" + s;
-    
-            if (--timer < 0) {
-                timer = duration;
-                playAlarm();
-                mostraCount();
-                clearInterval(intervalId);
-            }
         }, 1000);
     }
 }
 
 function mostraCount(){
-    var numberOfMinutes = 60*20;
+    var numberOfMinutes = 3;
     var display = document.getElementById('Countdown');
     startTimer(numberOfMinutes, display);
 }
