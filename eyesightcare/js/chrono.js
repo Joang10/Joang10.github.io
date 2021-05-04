@@ -49,7 +49,7 @@ function startTimer(duration, display) {
 }
 
 function mostraCount(){
-    var numberOfMinutes = 3;
+    var numberOfMinutes = 60*20;
     var display = document.getElementById('Countdown');
     startTimer(numberOfMinutes, display);
 }
