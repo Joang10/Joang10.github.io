@@ -18,11 +18,45 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 2, vars: 0, template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "This is an incredible about page");
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 23, vars: 0, consts: [[1, "Objective"], [1, "Method"], [1, "Motivation"], [1, "disclaimer"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "About");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhYm91dC5jb21wb25lbnQuY3NzIn0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "The goal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "This website's goal is to take care of your general health while you're on screens for big periods of time.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "The method");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Professionals do recommend for long periods of time of sitting in front of a computer or any kind of screen, that for every 20 minutes of work/gaming/any other task, you should stand up for 1 minute, focus your eyes into the horizon and close them repeatedly to hydrate them, this also helps for your back and lumbar. In case you have dry eyes you should ask for a doctor or use hydrating collyrium. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Motivation");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "This project is motivated by the need to establish breaks during work or study time. Additionally, I think it could be a good tool for a lot more people. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "DISCLAIMER");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "This isn't professional advice, in case you have any major inconvenience you should always ask your professional doctor.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["h1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%] {\r\n\tpadding-top: 10px;\r\n}\r\n\r\nh1[_ngcontent-%COMP%]{\r\n    margin-bottom: 0;\r\n}\r\n\r\n.disclaimer[_ngcontent-%COMP%]{\r\n    background-color: rgb(230, 69, 69);\r\n    padding-bottom: 5px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFib3V0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxpQkFBaUI7QUFDbEI7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxrQ0FBa0M7SUFDbEMsbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6ImFib3V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMSwgaDIge1xyXG5cdHBhZGRpbmctdG9wOiAxMHB4O1xyXG59XHJcblxyXG5oMXtcclxuICAgIG1hcmdpbi1ib3R0b206IDA7XHJcbn1cclxuXHJcbi5kaXNjbGFpbWVye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIzMCwgNjksIDY5KTtcclxuICAgIHBhZGRpbmctYm90dG9tOiA1cHg7XHJcbn1cclxuICAgICAgICAiXX0= */"] });
 
 
 /***/ }),
@@ -59,7 +93,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 13, vars: 0, consts: [[1, "container"], [1, "nav"], [1, "pull-left"], ["routerLink", "/", 1, "brand"], [1, "pull-right"], ["routerLink", "/about"], ["routerLink", "/"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 13, vars: 0, consts: [[1, "container"], [1, "nav"], [1, "pull-left"], ["routerLink", "/", 1, "brand"], [1, "pull-right"], ["routerLink", "/"], ["routerLink", "/about"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "ul", 2);
@@ -72,12 +106,12 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "ul", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "About");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Home");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Home");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "About");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -156,18 +190,58 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BodyComponent", function() { return BodyComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/form-field */ "kmnG");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/select */ "d3UM");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/core */ "FKr1");
 
+
+
+
+
+function BodyComponent_mat_option_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const time_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", time_r3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", time_r3, " ");
+} }
+function BodyComponent_p_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx_r1.selected, ":00");
+} }
+function BodyComponent_p_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r2.display);
+} }
 class BodyComponent {
     constructor() {
         this.started = false;
+        this.stop = false;
+        this.pause = false;
         this.dataactual = "";
         this.horaactual = "";
+        this.times = [5, 10, 15, 20, 25, 30, 40];
+        this.selected = 20;
+        this.useSelected = true;
         this.display = "";
         this.alarm = new Audio();
     }
     ngOnInit() {
         this.alarm.src = "./assets/sounds/alarm.mp3";
-        this.mostraHora();
     }
     mostraHora() {
         var date, seconds, minutes, hour, dd, mm, yyyy, mdyhms;
@@ -188,81 +262,124 @@ class BodyComponent {
     startTimer(duration) {
         if (this.started == false) {
             this.started = true;
+            this.stop = false;
             var timer = duration, m, s;
             var intervalId = setInterval(() => {
-                if (--timer < 0) {
-                    this.started = false;
-                    timer = duration;
-                    this.playAlarm();
-                    clearInterval(intervalId);
+                if (!this.pause) {
+                    if (--timer < 0) {
+                        this.started = false;
+                        timer = this.selected * 60;
+                        this.playAlarm();
+                        clearInterval(intervalId);
+                    }
+                    if (this.stop) {
+                        this.stop = false;
+                        this.started = false;
+                        timer = this.selected * 60;
+                        clearInterval(intervalId);
+                    }
+                    m = parseInt(String(timer / 60), 10);
+                    s = parseInt(String(timer % 60), 10);
+                    m = m < 10 ? "0" + m : m;
+                    s = s < 10 ? "0" + s : s;
+                    this.display = m + ":" + s;
                 }
-                m = parseInt(String(timer / 60), 10);
-                s = parseInt(String(timer % 60), 10);
-                m = m < 10 ? "0" + m : m;
-                s = s < 10 ? "0" + s : s;
-                this.display = m + ":" + s;
             }, 1000);
         }
     }
     mostraCount() {
-        var numberOfMinutes = 60 * 20;
+        if (!this.pause) {
+            this.display = this.selected + ":00";
+        }
+        if (this.useSelected) {
+            this.useSelected = false;
+        }
+        this.stop = false;
+        this.pause = false;
+        var numberOfMinutes = 60 * this.selected;
         this.startTimer(numberOfMinutes);
+    }
+    pausaCount() {
+        this.pause = true;
+    }
+    aturaCount() {
+        this.pause = false;
+        this.stop = true;
+        this.display = this.selected + ":00";
     }
     playAlarm() {
         this.alarm.play();
     }
 }
 BodyComponent.ɵfac = function BodyComponent_Factory(t) { return new (t || BodyComponent)(); };
-BodyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BodyComponent, selectors: [["app-body"]], decls: 25, vars: 3, consts: [[1, "Current"], ["id", "Horaactualtitle"], [1, "Countdown"], ["id", "Countdowntitle"], ["id", "Displaycount", 1, "myButton", 3, "click"], [1, "Objective"], [1, "Method"]], template: function BodyComponent_Template(rf, ctx) { if (rf & 1) {
+BodyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BodyComponent, selectors: [["app-body"]], decls: 33, vars: 4, consts: [[1, "Countdown"], ["id", "Countdowntitle"], ["appearance", "fill"], [3, "value", "valueChange"], [3, "value", 4, "ngFor", "ngForOf"], [1, "quadrant"], [1, "timer"], [4, "ngIf"], ["id", "Displaycount", 1, "myButton", 3, "click"], [1, "myButton3", 3, "click"], [1, "myButton2", 3, "click"], [1, "Objective"], [1, "Method"], [3, "value"]], template: function BodyComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Your Time");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "The application");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h2", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Work time span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-form-field", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-label");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Select your work time");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h2", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Current countdown");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "button", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BodyComponent_Template_button_click_13_listener() { return ctx.mostraCount(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Start Counting!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "mat-select", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("valueChange", function BodyComponent_Template_mat_select_valueChange_10_listener($event) { return ctx.selected = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, BodyComponent_mat_option_11_Template, 2, 2, "mat-option", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "The Goal");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "This website's goal is to take care of your general health while you're on screens for big periods of time.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, BodyComponent_p_14_Template, 2, 1, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, BodyComponent_p_15_Template, 2, 1, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "button", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BodyComponent_Template_button_click_17_listener() { return ctx.mostraCount(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Start");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "button", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BodyComponent_Template_button_click_19_listener() { return ctx.pausaCount(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Pause");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "button", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BodyComponent_Template_button_click_21_listener() { return ctx.aturaCount(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Stop");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "The method");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Professionals do recommend for long periods of time of sitting in front of a computer or any kind of screen, that for every 20 minutes of work/gaming/any other task, you should stand up for 1 minute, focus your eyes into the horizon and close them repeatedly to hydrate them, this also helps for your back and lumbar. In case you have dry eyes you should ask for a doctor or use hydrating collyrium. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "The goal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "This website's goal is to take care of your general health while you're on screens for big periods of time.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "The method");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Professionals do recommend for long periods of time of sitting in front of a computer or any kind of screen, that for every 20 minutes of work/gaming/any other task, you should stand up for 1 minute, focus your eyes into the horizon and close them repeatedly to hydrate them, this also helps for your back and lumbar. In case you have dry eyes you should ask for a doctor or use hydrating collyrium. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.dataactual);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.horaactual);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.display);
-    } }, styles: [".myButton[_ngcontent-%COMP%] {\r\n\tbackground-color:#5b7a64;\r\n\tborder-radius:28px;\r\n\tborder:1px solid #3f5741;\r\n\tdisplay:inline-block;\r\n\tcursor:pointer;\r\n\tcolor:#ffffff;\r\n\tfont-family:Arial;\r\n\tfont-size:17px;\r\n\tpadding:10px 20px;\r\n\ttext-decoration:none;\r\n\ttext-shadow:0px 1px 0px #3e4d3c;\r\n}\r\n.myButton[_ngcontent-%COMP%]:hover {\r\n\tbackground-color:#4b5c42;\r\n}\r\n.myButton[_ngcontent-%COMP%]:active {\r\n\tposition:relative;\r\n\ttop:1px;\r\n}\r\nh2[_ngcontent-%COMP%] {\r\n\tpadding-top: 10px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvZHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtDQUNDLHdCQUF3QjtDQUN4QixrQkFBa0I7Q0FDbEIsd0JBQXdCO0NBQ3hCLG9CQUFvQjtDQUNwQixjQUFjO0NBQ2QsYUFBYTtDQUNiLGlCQUFpQjtDQUNqQixjQUFjO0NBQ2QsaUJBQWlCO0NBQ2pCLG9CQUFvQjtDQUNwQiwrQkFBK0I7QUFDaEM7QUFDQTtDQUNDLHdCQUF3QjtBQUN6QjtBQUNBO0NBQ0MsaUJBQWlCO0NBQ2pCLE9BQU87QUFDUjtBQUVBO0NBQ0MsaUJBQWlCO0FBQ2xCIiwiZmlsZSI6ImJvZHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5teUJ1dHRvbiB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjojNWI3YTY0O1xyXG5cdGJvcmRlci1yYWRpdXM6MjhweDtcclxuXHRib3JkZXI6MXB4IHNvbGlkICMzZjU3NDE7XHJcblx0ZGlzcGxheTppbmxpbmUtYmxvY2s7XHJcblx0Y3Vyc29yOnBvaW50ZXI7XHJcblx0Y29sb3I6I2ZmZmZmZjtcclxuXHRmb250LWZhbWlseTpBcmlhbDtcclxuXHRmb250LXNpemU6MTdweDtcclxuXHRwYWRkaW5nOjEwcHggMjBweDtcclxuXHR0ZXh0LWRlY29yYXRpb246bm9uZTtcclxuXHR0ZXh0LXNoYWRvdzowcHggMXB4IDBweCAjM2U0ZDNjO1xyXG59XHJcbi5teUJ1dHRvbjpob3ZlciB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjojNGI1YzQyO1xyXG59XHJcbi5teUJ1dHRvbjphY3RpdmUge1xyXG5cdHBvc2l0aW9uOnJlbGF0aXZlO1xyXG5cdHRvcDoxcHg7XHJcbn1cclxuXHJcbmgyIHtcclxuXHRwYWRkaW5nLXRvcDogMTBweDtcclxufVxyXG4gICAgICAgICJdfQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", ctx.selected);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.times);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.useSelected);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.useSelected);
+    } }, directives: [_angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__["MatFormField"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__["MatLabel"], _angular_material_select__WEBPACK_IMPORTED_MODULE_2__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_material_core__WEBPACK_IMPORTED_MODULE_4__["MatOption"]], styles: ["button[_ngcontent-%COMP%]{\r\n\tmargin: 0px 5px;\r\n}\r\n\r\n.myButton[_ngcontent-%COMP%] {\r\n\tbackground-color:#5b7a64;\r\n\tborder-radius:28px;\r\n\tborder:1px solid #3f5741;\r\n\tdisplay:inline-block;\r\n\tcursor:pointer;\r\n\tcolor:#ffffff;\r\n\tfont-family:Arial;\r\n\tfont-size:17px;\r\n\tpadding:10px 20px;\r\n\ttext-decoration:none;\r\n\ttext-shadow:0px 1px 0px #3e4d3c;\r\n}\r\n\r\n.myButton[_ngcontent-%COMP%]:hover {\r\n\tbackground-color:#4b5c42;\r\n}\r\n\r\n.myButton[_ngcontent-%COMP%]:active {\r\n\tposition:relative;\r\n\ttop:1px;\r\n}\r\n\r\n.myButton2[_ngcontent-%COMP%] {\r\n\tbackground-color:#8d1717;\r\n\tborder-radius:28px;\r\n\tborder:1px solid #8d1717;\r\n\tdisplay:inline-block;\r\n\tcursor:pointer;\r\n\tcolor:#ffffff;\r\n\tfont-family:Arial;\r\n\tfont-size:17px;\r\n\tpadding:10px 20px;\r\n\ttext-decoration:none;\r\n\ttext-shadow:0px 1px 0px #8d1717;\r\n}\r\n\r\n.myButton2[_ngcontent-%COMP%]:hover {\r\n\tbackground-color:#720b0b;\r\n}\r\n\r\n.myButton2[_ngcontent-%COMP%]:active {\r\n\tposition:relative;\r\n\ttop:1px;\r\n}\r\n\r\n.myButton3[_ngcontent-%COMP%] {\r\n\tbackground-color:#b9b733;\r\n\tborder-radius:28px;\r\n\tborder:1px solid #b9b733;\r\n\tdisplay:inline-block;\r\n\tcursor:pointer;\r\n\tcolor:#ffffff;\r\n\tfont-family:Arial;\r\n\tfont-size:17px;\r\n\tpadding:10px 20px;\r\n\ttext-decoration:none;\r\n\ttext-shadow:0px 1px 0px #b9b733;\r\n}\r\n\r\n.myButton3[_ngcontent-%COMP%]:hover {\r\n\tbackground-color:#8f8d16;\r\n}\r\n\r\n.myButton3[_ngcontent-%COMP%]:active {\r\n\tposition:relative;\r\n\ttop:1px;\r\n}\r\n\r\n.quadrant[_ngcontent-%COMP%] {\r\n\tdisplay: inline-block;\r\n\twidth: auto;\r\n\tborder-radius:50px;\r\n\t-moz-border-radius:50px;\r\n\t-webkit-border-radius:50px;\r\n\tbackground-color: antiquewhite;\r\n\tborder:2px solid rgb(228, 198, 159);\r\n\tborder-style: groove;\r\n\tpadding: 10px 20px;\r\n\tmargin: 10px 20px;\r\n}\r\n\r\n.timer[_ngcontent-%COMP%] {\r\n\tfont-size: large;\r\n\tpadding-top: 5px;\r\n}\r\n\r\nh1[_ngcontent-%COMP%], h2[_ngcontent-%COMP%] {\r\n\tpadding-top: 10px;\r\n}\r\n\r\nh1[_ngcontent-%COMP%]{\r\n    margin-bottom: 0;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJvZHkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtDQUNDLGVBQWU7QUFDaEI7O0FBRUE7Q0FDQyx3QkFBd0I7Q0FDeEIsa0JBQWtCO0NBQ2xCLHdCQUF3QjtDQUN4QixvQkFBb0I7Q0FDcEIsY0FBYztDQUNkLGFBQWE7Q0FDYixpQkFBaUI7Q0FDakIsY0FBYztDQUNkLGlCQUFpQjtDQUNqQixvQkFBb0I7Q0FDcEIsK0JBQStCO0FBQ2hDOztBQUNBO0NBQ0Msd0JBQXdCO0FBQ3pCOztBQUNBO0NBQ0MsaUJBQWlCO0NBQ2pCLE9BQU87QUFDUjs7QUFFQTtDQUNDLHdCQUF3QjtDQUN4QixrQkFBa0I7Q0FDbEIsd0JBQXdCO0NBQ3hCLG9CQUFvQjtDQUNwQixjQUFjO0NBQ2QsYUFBYTtDQUNiLGlCQUFpQjtDQUNqQixjQUFjO0NBQ2QsaUJBQWlCO0NBQ2pCLG9CQUFvQjtDQUNwQiwrQkFBK0I7QUFDaEM7O0FBQ0E7Q0FDQyx3QkFBd0I7QUFDekI7O0FBQ0E7Q0FDQyxpQkFBaUI7Q0FDakIsT0FBTztBQUNSOztBQUVBO0NBQ0Msd0JBQXdCO0NBQ3hCLGtCQUFrQjtDQUNsQix3QkFBd0I7Q0FDeEIsb0JBQW9CO0NBQ3BCLGNBQWM7Q0FDZCxhQUFhO0NBQ2IsaUJBQWlCO0NBQ2pCLGNBQWM7Q0FDZCxpQkFBaUI7Q0FDakIsb0JBQW9CO0NBQ3BCLCtCQUErQjtBQUNoQzs7QUFDQTtDQUNDLHdCQUF3QjtBQUN6Qjs7QUFDQTtDQUNDLGlCQUFpQjtDQUNqQixPQUFPO0FBQ1I7O0FBRUE7Q0FDQyxxQkFBcUI7Q0FDckIsV0FBVztDQUNYLGtCQUFrQjtDQUNsQix1QkFBdUI7Q0FDdkIsMEJBQTBCO0NBQzFCLDhCQUE4QjtDQUM5QixtQ0FBbUM7Q0FDbkMsb0JBQW9CO0NBQ3BCLGtCQUFrQjtDQUNsQixpQkFBaUI7QUFDbEI7O0FBRUE7Q0FDQyxnQkFBZ0I7Q0FDaEIsZ0JBQWdCO0FBQ2pCOztBQUVBO0NBQ0MsaUJBQWlCO0FBQ2xCOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6ImJvZHkuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJ1dHRvbntcclxuXHRtYXJnaW46IDBweCA1cHg7XHJcbn1cclxuXHJcbi5teUJ1dHRvbiB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjojNWI3YTY0O1xyXG5cdGJvcmRlci1yYWRpdXM6MjhweDtcclxuXHRib3JkZXI6MXB4IHNvbGlkICMzZjU3NDE7XHJcblx0ZGlzcGxheTppbmxpbmUtYmxvY2s7XHJcblx0Y3Vyc29yOnBvaW50ZXI7XHJcblx0Y29sb3I6I2ZmZmZmZjtcclxuXHRmb250LWZhbWlseTpBcmlhbDtcclxuXHRmb250LXNpemU6MTdweDtcclxuXHRwYWRkaW5nOjEwcHggMjBweDtcclxuXHR0ZXh0LWRlY29yYXRpb246bm9uZTtcclxuXHR0ZXh0LXNoYWRvdzowcHggMXB4IDBweCAjM2U0ZDNjO1xyXG59XHJcbi5teUJ1dHRvbjpob3ZlciB7XHJcblx0YmFja2dyb3VuZC1jb2xvcjojNGI1YzQyO1xyXG59XHJcbi5teUJ1dHRvbjphY3RpdmUge1xyXG5cdHBvc2l0aW9uOnJlbGF0aXZlO1xyXG5cdHRvcDoxcHg7XHJcbn1cclxuXHJcbi5teUJ1dHRvbjIge1xyXG5cdGJhY2tncm91bmQtY29sb3I6IzhkMTcxNztcclxuXHRib3JkZXItcmFkaXVzOjI4cHg7XHJcblx0Ym9yZGVyOjFweCBzb2xpZCAjOGQxNzE3O1xyXG5cdGRpc3BsYXk6aW5saW5lLWJsb2NrO1xyXG5cdGN1cnNvcjpwb2ludGVyO1xyXG5cdGNvbG9yOiNmZmZmZmY7XHJcblx0Zm9udC1mYW1pbHk6QXJpYWw7XHJcblx0Zm9udC1zaXplOjE3cHg7XHJcblx0cGFkZGluZzoxMHB4IDIwcHg7XHJcblx0dGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcblx0dGV4dC1zaGFkb3c6MHB4IDFweCAwcHggIzhkMTcxNztcclxufVxyXG4ubXlCdXR0b24yOmhvdmVyIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiM3MjBiMGI7XHJcbn1cclxuLm15QnV0dG9uMjphY3RpdmUge1xyXG5cdHBvc2l0aW9uOnJlbGF0aXZlO1xyXG5cdHRvcDoxcHg7XHJcbn1cclxuXHJcbi5teUJ1dHRvbjMge1xyXG5cdGJhY2tncm91bmQtY29sb3I6I2I5YjczMztcclxuXHRib3JkZXItcmFkaXVzOjI4cHg7XHJcblx0Ym9yZGVyOjFweCBzb2xpZCAjYjliNzMzO1xyXG5cdGRpc3BsYXk6aW5saW5lLWJsb2NrO1xyXG5cdGN1cnNvcjpwb2ludGVyO1xyXG5cdGNvbG9yOiNmZmZmZmY7XHJcblx0Zm9udC1mYW1pbHk6QXJpYWw7XHJcblx0Zm9udC1zaXplOjE3cHg7XHJcblx0cGFkZGluZzoxMHB4IDIwcHg7XHJcblx0dGV4dC1kZWNvcmF0aW9uOm5vbmU7XHJcblx0dGV4dC1zaGFkb3c6MHB4IDFweCAwcHggI2I5YjczMztcclxufVxyXG4ubXlCdXR0b24zOmhvdmVyIHtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiM4ZjhkMTY7XHJcbn1cclxuLm15QnV0dG9uMzphY3RpdmUge1xyXG5cdHBvc2l0aW9uOnJlbGF0aXZlO1xyXG5cdHRvcDoxcHg7XHJcbn1cclxuXHJcbi5xdWFkcmFudCB7XHJcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG5cdHdpZHRoOiBhdXRvO1xyXG5cdGJvcmRlci1yYWRpdXM6NTBweDtcclxuXHQtbW96LWJvcmRlci1yYWRpdXM6NTBweDtcclxuXHQtd2Via2l0LWJvcmRlci1yYWRpdXM6NTBweDtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiBhbnRpcXVld2hpdGU7XHJcblx0Ym9yZGVyOjJweCBzb2xpZCByZ2IoMjI4LCAxOTgsIDE1OSk7XHJcblx0Ym9yZGVyLXN0eWxlOiBncm9vdmU7XHJcblx0cGFkZGluZzogMTBweCAyMHB4O1xyXG5cdG1hcmdpbjogMTBweCAyMHB4O1xyXG59XHJcblxyXG4udGltZXIge1xyXG5cdGZvbnQtc2l6ZTogbGFyZ2U7XHJcblx0cGFkZGluZy10b3A6IDVweDtcclxufVxyXG5cclxuaDEsIGgyIHtcclxuXHRwYWRkaW5nLXRvcDogMTBweDtcclxufVxyXG5cclxuaDF7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xyXG59XHJcbiAgICAgICAgIl19 */"] });
 
 
 /***/ }),
